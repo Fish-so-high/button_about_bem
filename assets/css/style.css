@@ -9,11 +9,29 @@ body {
     display: flex;
     flex-direction: column;
     font-family: system-ui, sans-serif;
-    background-color: #f4f4f5;
+    background-image: url(/assets/img/minh_beo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 body>div {
     margin: auto;
+}
+
+.title h1 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.attencion {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 100;   
+    
 }
 
 /* ======= Buttons ======== */

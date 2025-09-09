@@ -12,11 +12,19 @@
 <body>
     <div>
         <div id="toast"></div>
+        <div class="title">
+            <h1>ĐĂNG KÝ DỊCH VỤ Ở ĐÂY</h1>
+        </div>
+        <div class="Button">
 
-        <div>
-            <div onclick="showSuccessToast();" class="btn btn--success">Success</div>
-            <div onclick="showErrorToast();" class="btn btn--danger">Error</div>
+            <div onclick="showErrorToast();" class="btn btn--success">Đăng ký</div>
+            <div onclick="showSuccessToast();" class="btn btn--warn">Đăng ký</div>
+            <div onclick="showWarningToast();" class="btn btn--danger">Đăng ký</div>
 
+        </div>
+
+        <div class="attencion">
+            <h5>Đừng tin vào thị giác</h5>
         </div>
     </div>
 
@@ -74,8 +82,8 @@
         }
 
         toast({
-            title: 'Success',
-            message: 'Bạn đã đăng ký thành công dịch vụ chùi đít',
+            title: 'Công ty chùi đít  no1 server',
+            message: 'Hãy đăng ký dịch vụ chùi đít bên tôi',
             type: 'info',
             duration: 3000
         })
@@ -88,6 +96,16 @@
             duration: 3000
         })
         }
+
+        function showWarningToast () {
+            toast({
+            title: 'Warning',
+            message: 'Xin lỗi giấy vệ sinh đã hết, bạn phải dùng xịt đít thôi',
+            type: 'warning',
+            duration: 3000
+        })
+        }
+
         function showErrorToast () {
             toast({
             title: 'Error',
