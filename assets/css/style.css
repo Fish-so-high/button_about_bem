@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: system-ui, sans-serif;
-    background-image: url(/assets/img/minh_beo.jpg);
+    background-image: url(../img/minh_beo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
